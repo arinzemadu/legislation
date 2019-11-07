@@ -1,0 +1,7 @@
+legislation_auth.show_link:
+  path: '/primary-legislation'
+  defaults:
+    _controller: 'Drupal\legislation_auth\Controller\legislation_Controller::show_link'
+    _title: 'primary legislation'
+  requirements:
+    _permission: 'access content'
